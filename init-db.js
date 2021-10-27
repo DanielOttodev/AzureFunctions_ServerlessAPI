@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb")
 const { v4:uuidv4 } = require("uuid")
 
-const url = "mongodb://myazure-db1:bGVt1se89iBVxTS096ePZnk6WtBPIHBoMbfmWOhB9aTt1kM1CM6yYlo45RugFtJKE6uIH75BbFqcnj5FSPTu8w==@myazure-db1.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@myazure-db1@"
+const url = 'YOURCONNECTIONSTRING'
 const client = new MongoClient(url)
 
 
